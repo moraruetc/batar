@@ -1,1 +1,23 @@
-hello
+<html>
+  <head>
+    <!-- Import the component -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+    <!-- Use it like any other HTML element -->
+  </head>
+  <body>
+    <model-viewer
+      src="assets/Astronaut.glb"
+      alt="A 3D model of an astronaut"
+      auto-rotate
+      camera-controls
+    ></model-viewer>
+  </body>
+</html>
+>
